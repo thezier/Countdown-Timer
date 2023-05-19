@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(#a4a186 0%, #787563 40%, #13171a 90%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.timer-choice form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer-choice form label,
+.timer-choice form input,
+.timer-choice form button {
+  margin: 7px;
+}
+.timer-choice form label {
+  text-transform: uppercase;
+}
+.timer-choice form input {
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  width: 50px;
+  text-align: center;
+  font-size: 2rem;
+}
+.timer-choice form button {
+  padding: 20px 35px;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  background-color: #13171a;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  transition: all 0.2s;
+}
+.timer-choice form button:hover {
+  background-color: #636156;
+}
+.timer-choice form button:active {
+  background-color: rgb(93, 93, 84);
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.custom-slider {
+  width: 223px;
+  height: 20px;
+  background-color: #d6d4c8;
+}
+
+.fill {
+  height: 20px;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+h1 {
+  font-size: 6rem;
+  margin: 0;
+}
+
+.diamond {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  z-index: 1;
+}
+
+.hidden {
+  display: none !important;
+}
