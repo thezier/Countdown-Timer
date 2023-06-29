@@ -89,3 +89,9 @@ h1 {
 .hidden {
   display: none !important;
 }
+
+@media screen and (max-width: 800px) {
+  #time-left {
+    font-size: 4rem;
+  }
+}
